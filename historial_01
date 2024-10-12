@@ -1,0 +1,38 @@
+ll
+cd repogit/
+ll
+cd UTNFRA_SO_1P2C_2024_pertot/
+ll
+cd
+cd repogit/
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc  && history -a
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc && history -a
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc  && history -a
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+source  ~/.bashrc  && history -a
+ls -l UTNFRA_SO_1P2C_2024_pertot/
+UTNFRA_SO_1P2C_2024_pertot/
+cd UTNFRA_SO_1P2C_2024_pertot/
+ls -l
+rm -r RTA_ARCHIVOS_Examen_20241011
+rm -r RTA_SCRIPT_Examen_20241011
+ls -l
+rm -r Estructura_Asimetrica
+rm -r historial_02 
+ls -l
+cd RTA_ARCHIVOS_Examen_20241012
+ls -l
+cd
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_pertot/
+RTA_SCRIPT_Examen_20241012/
+cd RTA_SCRIPT_Examen_20241012/_Examen_20241012
+RTA_SCRIPT_Examen_20241012/
+cd RTA_SCRIPT_Examen_20241012/
+ls -l
+cp ../.bash_history historial_01
+cd
+cd repogit/
