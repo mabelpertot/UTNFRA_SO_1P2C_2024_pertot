@@ -1,0 +1,10 @@
+Mi IP Pública:
+181.168.67.12
+La URL de mi repositorio es:  
+git@github.com:mabelpertot/UTNFRA_SO_1P2C_2024_pertot.git
+
+Mi usuario es: 
+vagrant
+
+El Hash de mi usuario es: 
+$y$j9T$f7V.J8o8/5JXqaI3xUKKQ0$oND2iaEkOI22AcHc9kfKwylXqBi.VixFO/cPGuxMD..
