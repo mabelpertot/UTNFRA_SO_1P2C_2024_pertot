@@ -1,30 +1,10 @@
-#!/bin/bash 
+#!/bin/bash
 
+echo -e "Mi IP Pública: $(curl -s ifconfig.me)\n" > Filtro_Avanzado.txt
 
+echo -e "Mi usuario es: $(whoami)\n" >> Filtro_Avanzado.txt
 
-echo "==============================" > Filtro_Avanzado.txt
-echo "          Filtro Avanzado" >> Filtro_Avanzado.txt
-echo "==============================" >> Filtro_Avanzado.txt
-echo "" >> Filtro_Avanzado.txt
+echo -e "El Hash de mi usuario es: $(sudo grep $(whoami) /etc/shadow)\n" >> Filtro_Avanzado.txt
 
-echo -n "Mi IP Pública: " >> Filtro_Avanzado.txt
-curl -s ifconfig.me >> Filtro_Avanzado.txt
-
-echo "" >> Filtro_Avanzado.txt
-
-echo -n "Mi usuario es: " >> Filtro_Avanzado.txt
-whoami >> Filtro_Avanzado.txt
-
-
-echo -n "El Hash de mi usuario es: " >> Filtro_Avanzado.txt
-HASH=$(sudo grep "^$(whoami):" /etc/shadow | awk -F ':' '{print $2}')
-echo "$HASH" >> Filtro_Avanzado.txt
-
-
-echo -n "La URL de mi repositorio es: " >> Filtro_Avanzado.txt
-git remote get-url origin >> Filtro_Avanzado.txt
-
-
-echo "" >> Filtro_Avanzado.txt
-echo "==============================" >> Filtro_Avanzado.txt
+echo -e "La URL de mi repositorio es: $(git remote get-url origin)\n" >> Filtro_Avanzado.txt
 

@@ -1,0 +1,4 @@
+MemTotal:        2010892 kB
+
+Información del chasis:
+	Manufacturer: Oracle Corporation

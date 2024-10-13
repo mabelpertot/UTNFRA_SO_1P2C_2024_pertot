@@ -1,0 +1,4 @@
+cd repogit/
+ls -l
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+source  ~/.bashrc  && history -a
