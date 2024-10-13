@@ -1,0 +1,6 @@
+cd repogit/
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+source ~/.bashrc  && history -a
+ls -l UTNFRA_SO_1P2C_2024_pertot/
+ls -l UTNFRA_SO_1P2C_2024_pertot/RTA_SCRIPT_Examen_20241013/
+cp ../.bas_history historial_02
